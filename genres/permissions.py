@@ -17,3 +17,4 @@ class GenrePermissionClass(permissions.BasePermission):
             return request.user.has_perm('genres.delete_genre')
 
         return False
+

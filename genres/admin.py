@@ -25,7 +25,7 @@ class GenreAdmin(admin.ModelAdmin):
         if request.method == 'POST':
             file = request.FILES['file']
 
-            # Processe seu arquivo aqui e faça o que quiser com ele (file)
+            # Processe seu arquivo aqui e faça o que quiser com ele   (file)
             print(f'Variável com conteúdo do arquivo: {file}')
 
             form = FileUploadForm()

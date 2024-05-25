@@ -35,7 +35,7 @@ class GenreAdmin(admin.ModelAdmin):
                 context={
                     'form': form,
                     'title': 'Importar arquivo',
-                    'response': 'Arquivo processado com sucesso.'
+                    'response': 'Arquivo foi processado com sucesso.'
                 },
             )
 

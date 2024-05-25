@@ -24,4 +24,4 @@ class Command(BaseCommand):
 
                 Actor.objects.create(name=name, birthday=birthday, nationality=nationality)
 
-            self.stdout.write(self.style.SUCCESS('ATORES IMPORTADOS COM SUCESSO!'))
+            self.stdout.write(self.style.SUCCESS('ATORES IMPORTADOS COM  SUCESSO!'))
